@@ -1,0 +1,181 @@
+/*=============================================
+=            tab section            =
+=============================================*/
+
+.form-details h3{
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 30px;
+  }
+  .form-details ul{
+    padding-left: 40px;
+    margin-top: 20px;
+    line-height: 26px
+  }
+  
+  
+  
+  /*----- Tabs -----*/
+  .tabs {
+  margin-top:40px;
+  }
+  
+  /*----- Tab Links -----*/
+  /* Clearfix */
+  .tab-links:after {
+      display:block;
+      clear:both;
+      content:'';
+  }
+  .tab-links{
+    border-bottom: solid 1px #e08e13;
+    padding-left: 0;
+  }
+  .tab-links li {
+      margin:0px 10px 0 0;
+      float:left;
+      list-style:none;
+  }
+  
+  .tab-links a {
+      padding:9px 45px;
+    display:inline-block;
+    background: #fff;
+      font-size:22px;
+      font-weight:600;
+      color:#e08e13;
+    transition:all linear 0.15s;
+    border: solid 1px #e08e13;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: transparent;
+  }
+  @media (max-width: 767px){
+    .tab-links a{
+      padding: 10px;
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 567px){
+    .tab-links a{
+      font-size: 12px;
+    }
+  }
+  
+  .tab-links a:hover {
+    background: #e08e13;
+    color:#fff;
+    text-decoration: none;
+  }
+  
+  .tab-links li.active a, .tab-links li.active a:hover {
+    background: #e08e13;
+    color:#fff;
+    text-decoration: none;
+  }
+  
+  /*----- Content of Tabs -----*/
+  .tab-content {
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+  
+  .tab {
+      display:none;
+  }
+  
+  .tab.active {
+      display:block;
+  }
+  
+  
+  /*=====  End of tab section  ======*/
+
+  
+  /*=============================================
+  =            form            =
+  =============================================*/
+  
+#form{
+    max-width: 700px;
+    margin: auto;
+    box-shadow: 0px 0px 3px #E1E1E1;
+    border: 1px solid #D6D6D6;
+    padding: 10px;
+}
+.templateWrapper {
+    box-shadow: 0px 0px 3px #E1E1E1;
+}
+  #form ul{
+      list-style: none;
+  }
+  #form .zf-labelName{
+    font-size: 13px;
+    color: #444444;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .zf-nameWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  @media (min-width: 768px){
+  .zf-nameWrapper{
+      flex-direction: row;
+    }
+  }
+
+  .zf-nameWrapper span{
+    width: 100%;
+   }
+   @media (min-width:768px){
+    .zf-nameWrapper span:first-child{
+        margin-right: 20px;
+    } 
+   }
+  .zf-nameWrapper span label{
+    display: block;
+    font-size: 11px;
+    color: #888888;
+  }
+#form input[type="text"] {
+    padding: 5px;
+    font-size: 13px;
+}
+input[type="text"], input[type="search"], textarea {
+    border: 1px solid #e5e5e5;
+}
+input[type="text"]:hover, input[type="search"]:hover, textarea:hover {
+    border: 1px solid #ccc !important;
+}
+.zf-tempFrmWrapper{
+    margin: 15px 0;
+}
+.zf-subContWrap ul{
+    width: 75%;
+}
+.zf-subContWrap ul input{
+    width: 100%;
+}
+
+.zf-submitColor{
+    background: #ff9900;
+    font-size: 16px;
+    font-weight: 400;
+    background: #e08e13;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    border: none;
+    display: block;
+    padding: 5px 15px;
+}
+
+  /*=====  End of form  ======*/
+  
+  
